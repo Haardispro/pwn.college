@@ -8,77 +8,105 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fba2c17cc2474397",
+            "id": "121a3a52d9a263a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Luminarium.md",
+                "file": "Pondering PATH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Luminarium"
+              "title": "Pondering PATH"
             }
           },
           {
-            "id": "853bf88a1982c2aa",
+            "id": "33b96f7fd24918fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1.md",
+                "file": "File Globbing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 1"
+              "title": "File Globbing"
             }
           },
           {
-            "id": "47f418383bbc38a3",
+            "id": "ad3eb20bbec9da05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pondering Paths.md",
+                "file": "Practising Piping.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pondering Paths"
+              "title": "Practising Piping"
             }
           },
           {
-            "id": "49d50ee5a1fe729a",
+            "id": "37555d3d71301457",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comprehending Commands.md",
+                "file": "Shell Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comprehending Commands"
+              "title": "Shell Variables"
             }
           },
           {
-            "id": "cf6e96af4b3156b8",
+            "id": "27f4c9af3284bd40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digesting Documentation.md",
+                "file": "Processes and Jobs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Digesting Documentation"
+              "title": "Processes and Jobs"
+            }
+          },
+          {
+            "id": "6e8cd6ffc7672874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Perceiving Permissions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Perceiving Permissions"
+            }
+          },
+          {
+            "id": "ef2b1a0b82996055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Silly Shenanigans.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Silly Shenanigans"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -135,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "57a0279a407ca676",
@@ -226,13 +253,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf6e96af4b3156b8",
+  "active": "ef2b1a0b82996055",
   "lastOpenFiles": [
-    "Comprehending Commands.md",
-    "Digesting Documentation.md",
+    "Perceiving Permissions.md",
+    "Silly Shenanigans.md",
+    "Processes and Jobs.md",
+    "Shell Variables.md",
+    "Practising Piping.md",
+    "File Globbing.md",
+    "Pondering PATH.md",
     "Pondering Paths.md",
-    "Module 1.md",
+    "Hello Hackers.md",
+    "Terminal Multiplexing.md",
+    "Chaining Commands.md",
+    "Data Manipulation.md",
+    "Untangling Users.md",
     "Linux Luminarium.md",
+    "Digesting Documentation.md",
+    "Comprehending Commands.md",
     "Welcome.md"
   ]
 }
