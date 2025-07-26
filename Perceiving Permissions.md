@@ -55,8 +55,22 @@ flag: `pwn.college{MtyhPCOqTQaaMu6BjdIB2o8mS5t.QXyEjN0wyNwkzNyEzW}`
 
 This challenge will ask you to change the permissions of the `/challenge/pwn` file in specific ways a few times in a row. If you get the permissions wrong, the game will reset and you can try again. If you get the permissions right eight times in a row, the challenge will let you `chmod` `/flag` to make it readable for yourself :-) Launch `/challenge/run` to get started!
 
-
-
+flag: `pwn.college{kDoqth-MHqcDySYPXBtWpjSnxd3.QXwEjN0wyNwkzNyEzW}`
 ### Permission Setting Practice 
 
+This level extends the previous level by requesting more radical permission changes, which you will need `=` and `,`-chaining to achieve. Good luck!
+
+flag: `pwn.college{s-h6sDe8_GdK1gCvpmrjrW8gK56.QXzETO0wyNwkzNyEzW}`
+
 ### The SUID Bit
+
+Now, we are going to let you add the SUID bit to the `/challenge/getroot` program in order to spawn a root shell for you to `cat` the flag yourself!
+
+Command used: 
+`chmod u+s /challenge/getroot`
+`/challenge/getroot`
+`cat /flag`
+
+flag: `pwn.college{w_5D30UErMwZAwfwR4e6VoH_-0r.QXzEjN0wyNwkzNyEzW}`
+
+

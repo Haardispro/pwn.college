@@ -39,6 +39,22 @@ Command used:
 
 flag: `pwn.college{Ecc94E-4V6dPRwh-Id18EowMZsm.QX0cjM1wyNwkzNyEzW}`
 
+### Scripting with Arguments
+
+Once your script works correctly, run `/challenge/run` to get your flag!
+
+solve.sh 
+```bash
+echo "$2 $1"
+```
+
+Command used: 
+`bash solve.sh pwn college`
+`/challenge/run`
+
+flag: `pwn.college{IgsOAwEmhqCCOiG7ZyvhFABiIsn.0VNzMDOxwyNwkzNyEzW}`
+
+
 
 
 

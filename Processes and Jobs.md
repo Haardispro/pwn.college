@@ -19,6 +19,26 @@ Command used:
 
 flag: `pwn.college{AJ66-q1fb_D4qZJzN4kCgZrpuFq.QXyQDO0wyNwkzNyEzW}`
 
+### Killing Misbehaving Processes
+
+Your general workflow should be:
+
+1. Check what processes are running.
+2. Find `/challenge/decoy` in the list and figure out its process ID.
+3. `kill` it.
+4. Run `/challenge/run` to get the flag without being overwhelmed by decoys (you don't need to redirect its output; it'll write to the FIFO on its own).
+
+Good luck!
+
+Commands used:
+`ps -ef`
+`kill 137`
+`/challenge/run &`
+`cat /tmp/flag_fifo`
+
+flag: `pwn.college{8nZvbc6DCi92_Cd7zBG5zA6iwl3.0FNzMDOxwyNwkzNyEzW}`
+
+
 ### Interrupting Processes 
 
 Try it here! `/challenge/run` will refuse to give you the flag until you interrupt it. Good luck!

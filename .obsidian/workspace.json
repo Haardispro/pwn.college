@@ -4,81 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "453f1c07af493954",
+        "id": "9a1649f151d33369",
         "type": "tabs",
         "children": [
           {
-            "id": "121a3a52d9a263a5",
+            "id": "18b5e94ee0f377ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pondering PATH.md",
+                "file": "Terminal Multiplexing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pondering PATH"
+              "title": "Terminal Multiplexing"
             }
           },
           {
-            "id": "33b96f7fd24918fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "File Globbing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "File Globbing"
-            }
-          },
-          {
-            "id": "ad3eb20bbec9da05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Practising Piping.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Practising Piping"
-            }
-          },
-          {
-            "id": "37555d3d71301457",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shell Variables.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Shell Variables"
-            }
-          },
-          {
-            "id": "27f4c9af3284bd40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Processes and Jobs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Processes and Jobs"
-            }
-          },
-          {
-            "id": "6e8cd6ffc7672874",
+            "id": "9b82b184a61039cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,7 +36,35 @@
             }
           },
           {
-            "id": "ef2b1a0b82996055",
+            "id": "64731195d42a4992",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Processes and Jobs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Processes and Jobs"
+            }
+          },
+          {
+            "id": "8ed18bd5699b013f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chaining Commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chaining Commands"
+            }
+          },
+          {
+            "id": "2d52183f06b5883a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "57a0279a407ca676",
@@ -253,24 +226,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef2b1a0b82996055",
+  "active": "64731195d42a4992",
   "lastOpenFiles": [
-    "Perceiving Permissions.md",
     "Silly Shenanigans.md",
+    "Chaining Commands.md",
     "Processes and Jobs.md",
-    "Shell Variables.md",
+    "Perceiving Permissions.md",
+    "Terminal Multiplexing.md",
     "Practising Piping.md",
+    "Daring Destruction.md",
+    "Shell Variables.md",
     "File Globbing.md",
+    "Digesting Documentation.md",
+    "Comprehending Commands.md",
     "Pondering PATH.md",
     "Pondering Paths.md",
     "Hello Hackers.md",
-    "Terminal Multiplexing.md",
-    "Chaining Commands.md",
     "Data Manipulation.md",
     "Untangling Users.md",
     "Linux Luminarium.md",
-    "Digesting Documentation.md",
-    "Comprehending Commands.md",
     "Welcome.md"
   ]
 }

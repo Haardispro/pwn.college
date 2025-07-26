@@ -53,8 +53,20 @@ flag: `pwn.college{4iD7-ebp6IT5mILt7Wm9oXwP3oK.0lM3kjNxwyNwkzNyEzW}`
 
 Now, let's put the previous levels together! We put a few happy, but diversely-named files in `/challenge/files`. Go `cd` there and, using the globbing you've learned, write a single, short (6 characters or less) glob that (when passed as an argument to `/challenge/run`) will match the files "challenging", "educational", and "pwning"!
 
+Command used: 
+`/challenge/run [pce]*`
 
+flag: `pwn.college{gqlpXLgXO2LFwk_v4w6HurAwczD.QX1IDO0wyNwkzNyEzW}`
 
+### Exclusionary globbing 
+
+Armed with this knowledge, go forth to `/challenge/files` and run `/challenge/run` with all files that don't start with `p`, `w`, or `n`!
+
+Command used:
+`cd /challenge/files`
+`/challenge/run [!pwn]*`
+
+flag: `pwn.college{AyV9b9rtyLE2FCtVnxaC3x5uqoS.QX2IDO0wyNwkzNyEzW}`
 
 ### Tab Completion 
 
@@ -63,5 +75,27 @@ This challenge has copied the flag into `/challenge/pwncollege`, and you can fr
 Command used: `/challenge/pwn<tab>`
 
 flag: `pwn.college{MkU0bYg9ImyUkcFTIQU7PVz5XwB.0FN0EzNxwyNwkzNyEzW}`
+
+
+### Multiple options for tab completion 
+
+This challenge has a `/challenge/files` directory with a bunch of files starting with `pwncollege`. Tab-complete from `/challenge/files/p` or so, and make your way to the flag!
+
+Command used: 
+`cat /challenge/files/p`
+`cat /challenge/files/pwncollege-flag`
+
+flag: `pwn.college{MSYRthZpcfG3--3Wkc6fX5JRhhz.0lN0EzNxwyNwkzNyEzW}`
+
+
+### Tab completion on commands 
+
+Tab completion is for more than files! You can also tab-complete commands. This level has a command that starts with `pwncollege`, and it'll give you the flag. Type `pwncollege` and hit the tab key to auto-complete it!
+
+Command used: 
+`pwncollege<TAB>`
+
+flag: `pwn.college{U-3A6FaPcDdPFi1qZvrm1MC6eDC.0VN0EzNxwyNwkzNyEzW}`
+
 
 

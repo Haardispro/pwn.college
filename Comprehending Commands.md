@@ -33,6 +33,19 @@ command used: `grep "pwn.college" /challenge/data.txt`
 
 flag: `pwn.college{0kAvKt6TfY6bJ2sdhUWZ6_WOM7v.QX3EDO0wyNwkzNyEzW}`
 
+### comparing files 
+
+Now for your challenge! There are two files in `/challenge`:
+
+- `/challenge/decoys_only.txt` contains 100 fake flags
+- `/challenge/decoys_and_real.txt` contains all 100 fake flags plus the one real flag
+
+Use `diff` to find what's different between these files and get your flag!
+
+Command used: `diff /challenge/decoys_only.txt /challenge/decoys_and_real.txt`
+
+flag: `pwn.college{wfQuhx_K7hV1_L_qHPwxLGrNisH.01MwMDOxwyNwkzNyEzW}`
+
 
 ### listing files 
 
@@ -91,6 +104,26 @@ commands used:
 `/challenge/run`
 
 flag: `pwn.college{Q8rGOT0j74nwI49bHDy-IVTdwiY.QXxMDO0wyNwkzNyEzW}`
+
+
+### finding files 
+
+Now it's your turn. I've hidden the flag in a random directory on the filesystem. It's still called `flag`. Go find it!
+
+Command used: `find / -name flag`
+
+flag: `pwn.college{ck8hE6R9BoA3Z2-kYLNeVqDOKSB.QXyMDO0wyNwkzNyEzW}`
+
+
+### linking files 
+
+Okay, now you try it! In this level the flag is, as always, in `/flag`, but `/challenge/catflag` will instead read out `/home/hacker/not-the-flag`. Use the symlink, and fool it into giving you the flag!
+
+Command used: 
+`ln -s /flag /home/hacker/not-the-flag`
+`/challenge/catflag`
+
+flag: `pwn.college{YQLFN3_3SObpSUHQ4D0Y1bVSY4E.QX5ETN1wyNwkzNyEzW}`
 
 
 

@@ -94,6 +94,17 @@ Command used:
 flag: `pwn.college{0Xdh62afV6NYri9w0bJ8zYDE--f.QXxITO0wyNwkzNyEzW}`
 
 
+### Process substitution for input 
+
+Now for your challenge! Recall what you learned in the `diff` challenge from [Comprehending Commands](https://pwn.college/linux-luminarium/commands). In that challenge, you diffed two files. Now, you'll diff two sets of command outputs: `/challenge/print_decoys`, which will print a bunch of decoy flags, and `/challenge/print_decoys_and_flag` which will print those same decoys plus the real flag.
+
+Use process substitution with `diff` to compare the outputs of these two programs and find your flag!
+
+Command used: 
+`diff <(/challenge/print_decoys_and_flag) <(/challenge/print_decoys)`
+
+flag: `pwn.college{UBAXiuf0WozDaZBvlS1XG4UTfqF.0lNwMDOxwyNwkzNyEzW}`
+
 ### Writing to multiple programs
 
 Now it's your turn! In this challenge, we have `/challenge/hack`, `/challenge/the`, and `/challenge/planet`. Run the `/challenge/hack` command, and duplicate its output as input to both the `/challenge/the` and the `/challenge/planet` commands!
@@ -115,4 +126,19 @@ In this challenge, you have:
 
 Go get the flag!
 
+Command used: `/challenge/hack 2> >(/challenge/the) > >(/challenge/planet)`
+
+### Named pipes 
+
+This challenge will be a simple introduction to FIFOs. You'll need to create a `/tmp/flag_fifo` file and redirect the stdout of `/challenge/run` to it. If you're successful, `/challenge/run` will write the flag into the fifo! Go do it!
+
+Basically, operations on FIFOs will *block* until both the read side and the write side is open, so `/challenge/run` will not actually be launched until you start reading from the FIFO. 
+So, simultaneously, `cat /tmp/flag_fifo` and `/challenge/run > /tmp/flag_fifo` need to be run. 
+
 Command used: 
+`mkfifo /tmp/flag_fifo`
+`cat /tmp/flag_fifo &`<- & will put the cat command in the background
+`/challenge/run > /tmp/flag_fifo`
+
+
+flag: `pwn.college{ED2dL7wmKZw1oqjcxW_ICbCqcLo.01MzMDOxwyNwkzNyEzW}`
