@@ -35,7 +35,28 @@ flag: `pwn.college{ACHDGuUNrvums7psBlQRBowVQXD.01NzEzNxwyNwkzNyEzW}`
 
 Previously, the `win` command that `/challenge/run` executed was stored in `/challenge/more_commands`. This time, `win` does not exist! Recall the final level of [Chaining Commands](https://pwn.college/linux-luminarium/chaining), and make a shell script called `win`, add its location to the `PATH`, and enable `/challenge/run` to find it!
 
+Commands used:
+`touch /tmp/win`
+`echo "cat /flag" > /tmp/win`
+`chmod +x /tmp/win`
+`export PATH="/tmp:$PATH`
+`/challenge/run`
+
+flag: `pwn.college{4_-m6mkOysVhNXcVRWit3mnlcNr.QX2cjM1wyNwkzNyEzW}`
 
 
+### Hijacking Commands 
+
+Armed with your knowledge, you can now carry out some shenanigans. This challenge is almost the same as the first challenge in this module. Again, this challenge will delete the flag using the `rm` command. But unlike before, it will _not_ print anything out for you.
+
+How can you solve this? You know that `rm` is searched for in the directories listed in the `PATH` variable. You have experience creating the `win` command when the previous challenge needed it. What else can you create?
+
+Command used: 
+`echo "!#/bin/bash" >> /tmp/rm`
+`echo "cat /flag" >> /tmp/rm`
+`chmod +x /tmp/rm`
+`export PATH="/tmp:$PATH"`
+`/challenge/run`
 
 
+flag: `pwn.college{YzDL75kWzJOTS8gE3AOQBjkSqbF.QX3cjM1wyNwkzNyEzW}`

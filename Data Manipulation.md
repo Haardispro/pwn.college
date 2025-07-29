@@ -46,3 +46,14 @@ Commands used:
 flag: `pwn.college{QGZ3wf8Pr-F-KZl1edeOjVAUC9C.01NxEzNxwyNwkzNyEzW}`
 
 
+### Sorting Data
+
+In this challenge, there's a file at `/challenge/flags.txt` containing 100 fake flags, with the real flag mixed among them. When sorted alphabetically, the real flag will be at the end (we made sure of this when generating fake flags). Go get it!
+
+Command used: 
+`sort /challenge/flags.txt`
+
+flag: `pwn.college{oehM1AR1n_8ooliNMgu3-lqkes2.0FM0MDOxwyNwkzNyEzW}`
+
+
+

@@ -8,62 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "18b5e94ee0f377ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terminal Multiplexing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Terminal Multiplexing"
-            }
-          },
-          {
-            "id": "9b82b184a61039cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Perceiving Permissions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Perceiving Permissions"
-            }
-          },
-          {
-            "id": "64731195d42a4992",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Processes and Jobs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Processes and Jobs"
-            }
-          },
-          {
-            "id": "8ed18bd5699b013f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chaining Commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chaining Commands"
-            }
-          },
-          {
             "id": "2d52183f06b5883a",
             "type": "leaf",
             "state": {
@@ -76,9 +20,22 @@
               "icon": "lucide-file",
               "title": "Silly Shenanigans"
             }
+          },
+          {
+            "id": "9cd267a99016293e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pondering PATH.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pondering PATH"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,23 +183,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64731195d42a4992",
+  "active": "2d52183f06b5883a",
   "lastOpenFiles": [
-    "Silly Shenanigans.md",
+    "Data Manipulation.md",
     "Chaining Commands.md",
-    "Processes and Jobs.md",
-    "Perceiving Permissions.md",
+    "Silly Shenanigans.md",
+    "Pondering PATH.md",
     "Terminal Multiplexing.md",
-    "Practising Piping.md",
+    "Perceiving Permissions.md",
     "Daring Destruction.md",
+    "Pasted image 20250727001017.png",
+    "Digesting Documentation.md",
+    "Processes and Jobs.md",
+    "Practising Piping.md",
     "Shell Variables.md",
     "File Globbing.md",
-    "Digesting Documentation.md",
     "Comprehending Commands.md",
-    "Pondering PATH.md",
     "Pondering Paths.md",
     "Hello Hackers.md",
-    "Data Manipulation.md",
     "Untangling Users.md",
     "Linux Luminarium.md",
     "Welcome.md"
